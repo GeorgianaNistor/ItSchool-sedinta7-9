@@ -13,15 +13,15 @@
 
     --button-color: #2bb686;
 
-    --fs-large: 1rem;
-    --fs-medium: 0.875rem;
-    --fs-small: 0.75rem;
+    --fs-large: 16px;
+    --fs-medium: 14px;
+    --fs-small: 12px;
 
-    --spacing-xl: 2.625rem;
-    --spacing-large: 1.75rem;
-    --spacing-medium: 1rem;
-    --spacing-small: 0.5rem;
-    --spacing-tiny: 0.25rem;
+    --spacing-xl: 42px;
+    --spacing-large: 28px;
+    --spacing-medium: 16px;
+    --spacing-small: 8px;
+    --spacing-tiny: 4px;
 
     --mobile-logo-height: 45px;
 }
@@ -61,15 +61,15 @@ body {
 }
 
 h1 {
-    font-size: 3.5rem
+    font-size: 56px;
 }
 
 h2 {
-    font-size: 1.75rem;
+    font-size: 28px;
 }
 
 h3 {
-    font-size: 1.5rem;
+    font-size: 24px;
 }
 
 p {
@@ -189,7 +189,7 @@ nav .submenu {
     top: calc(100% - var(--spacing-small));
     left: var(--spacing-medium);
 
-    width: 10rem;
+    width: 160px;
     padding: var(--spacing-tiny) 0;
 
     background-color: var(--bg-dark);

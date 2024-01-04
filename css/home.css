@@ -67,7 +67,7 @@
 
 @media (max-width: 768px) {
   .welcome h1 {
-    font-size: 2.5rem;
+    font-size: 40px;
   }
 
   /* Vrem ca ultimul paragraf sa nu aiba margine. */
@@ -88,7 +88,7 @@
   }
 
   .welcome {
-    padding-bottom: 4rem;
+    padding-bottom: 64px;
   }
 }
 
