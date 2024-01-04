@@ -222,14 +222,6 @@ nav .about-us:hover .submenu {
         display: block;
     }
 
-    nav .arrow-down-icon {
-        display: none;
-    }
-
-    nav .about-us:hover .submenu {
-        display: none;
-    }
-
     nav .menu-icon-container {
         position: relative;
     }
@@ -271,6 +263,14 @@ nav .about-us:hover .submenu {
 
         background-color: var(--bg-dark);
     }
+    nav .arrow-down-icon {
+        display: none;
+    }
+
+    nav .about-us:hover .submenu {
+        display: none;
+    }
+
 }
 
 
