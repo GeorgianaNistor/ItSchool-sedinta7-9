@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>First UI APP</title>
+		<!-- adauga, metatag-uri pentru SEO -->
+		<meta
+			name="description"
+			content="Prima aplicatie de UI folosind doar HTML si CSS"
+		/>
+		<!-- Includem font-urile de la Google -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- Includem iconitele tot de la Google: Material Icons -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+			rel="stylesheet"
+		/>
+		<!-- Includem css-urile noastre -->
+		<link rel="stylesheet" href="../../css/main.css" />
+		<link rel="stylesheet" href="../../css/course-detail.css" />
+	</head>
+	<body>
+		<header>
+			<nav>
+				<div class="container">
+					<a href="../../index.html" class="logo-link">
+						<img src="../../img/itschool-logo.png" alt="ItSchool" />
+					</a>
+					<div class="menu-icon-container">
+						<!-- Inseram iconita de meniu folosita la mobile + un checkbox folosit ca si hack de css sa aratam/ascundem meniul pe mobile -->
+						<span class="material-symbols-outlined menu-icon"> menu </span>
+						<input type="checkbox" />
+						<ul>
+							<li><a href="../courses.html">Cursuri Online</a></li>
+							<li class="about-us">
+								<a href="../about.html"
+									>Despre Noi
+									<!-- Inseram iconita de arrow down de pe Material Icons -->
+									<span class="material-symbols-outlined arrow-down-icon">
+										arrow_drop_down
+									</span>
+								</a>
+								<!-- Inseram sub-meniul afisat la hover 'Despre Noi' -->
+								<div class="submenu">
+									<a href="../../index.html">HomePage</a>
+									<a href="../about.html">Despre Noi</a>
+								</div>
+							</li>
+							<li><a href="../contact.html">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+
+		<main>
+			<section class="welcome">
+				<div class="container">
+					<h1>Web development</h1>
+				</div>
+			</section>
+
+			<div class="container">
+				<section class="course-details">
+					<div class="course-img">
+						<img src="../../img/Java.jpeg" alt="Java" />
+					</div>
+					<div class="course-content">
+						<p>
+							Programarea Java se referă la dezvoltarea de software utilizând
+							limbajul de programare Java, un limbaj orientat pe obiecte,
+							independent de platformă, cunoscut pentru sintaxa sa clară,
+							gestionarea automată a memoriei (prin colectarea gunoiului), și
+							utilizarea în dezvoltarea de aplicații web, aplicații mobile
+							(Android), sisteme enterprise, și Internet of Things (IoT).
+						</p>
+						<p>Caracteristici cheie:</p>
+						<ul>
+							<li>
+								Gestionarea automată a memoriei: Java se ocupă automat de
+								alocarea și eliberarea memoriei pentru obiectele neutilizate
+								prin colectarea gunoiului, eliminând necesitatea gestionării
+								manuale de către programator.
+							</li>
+							<li>
+								Tipizare rigidă: Toate variabilele trebuie declarate cu un tip
+								specific, ceea ce ajută la prevenirea erorilor de tip în timpul
+								compilării și la crearea unui cod mai robust.
+							</li>
+						</ul>
+					</div>
+				</section>
+			</div>
+		</main>
+
+		<footer>
+			<div class="container">
+				<p>It School Romania 2025. Toate drepturile rezervate</p>
+			</div>
+		</footer>
+	</body>
+</html>

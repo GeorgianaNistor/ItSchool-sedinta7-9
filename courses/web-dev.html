@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>First UI APP</title>
+		<!-- adauga, metatag-uri pentru SEO -->
+		<meta
+			name="description"
+			content="Prima aplicatie de UI folosind doar HTML si CSS"
+		/>
+		<!-- Includem font-urile de la Google -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- Includem iconitele tot de la Google: Material Icons -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+			rel="stylesheet"
+		/>
+		<!-- Includem css-urile noastre -->
+		<link rel="stylesheet" href="../../css/main.css" />
+		<link rel="stylesheet" href="../../css/course-detail.css" />
+	</head>
+	<body>
+		<header>
+			<nav>
+				<div class="container">
+					<a href="../../index.html" class="logo-link">
+						<img src="../../img/itschool-logo.png" alt="ItSchool" />
+					</a>
+					<div class="menu-icon-container">
+						<!-- Inseram iconita de meniu folosita la mobile + un checkbox folosit ca si hack de css sa aratam/ascundem meniul pe mobile -->
+						<span class="material-symbols-outlined menu-icon"> menu </span>
+						<input type="checkbox" />
+						<ul>
+							<li><a href="../courses.html">Cursuri Online</a></li>
+							<li class="about-us">
+								<a href="../about.html"
+									>Despre Noi
+									<!-- Inseram iconita de arrow down de pe Material Icons -->
+									<span class="material-symbols-outlined arrow-down-icon">
+										arrow_drop_down
+									</span>
+								</a>
+								<!-- Inseram sub-meniul afisat la hover 'Despre Noi' -->
+								<div class="submenu">
+									<a href="../../index.html">HomePage</a>
+									<a href="../about.html">Despre Noi</a>
+								</div>
+							</li>
+							<li><a href="../contact.html">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+
+		<main>
+			<section class="welcome">
+				<div class="container">
+					<h1>Web development</h1>
+				</div>
+			</section>
+
+			<div class="container">
+				<section class="course-details">
+					<div class="course-img">
+						<img src="../../img/web-dev.jpeg" alt="Web development" />
+					</div>
+					<div class="course-content">
+						<p>
+							Programarea web (web development) este procesul de creare și
+							construire a aplicațiilor web și site-urilor care rulează pe
+							internet și sunt accesate prin intermediul unui browser. Acesta
+							include utilizarea limbajelor de programare, tehnologiilor și
+							framework-urilor pentru a dezvolta funcționalitățile vizibile
+							utilizatorului (frontend) și cele din spatele scenei (backend),
+							precum și mentenanța acestora.
+						</p>
+						<p>Tehnologii folosite</p>
+						<ul>
+							<li>
+								HTML: Limbajul de marcare pentru structura conținutului unei
+								pagini web.
+							</li>
+							<li>
+								CSS: Limbajul de stilizare pentru aspectul vizual al paginilor
+								web.
+							</li>
+							<li>
+								JavaScript: Limbajul de programare care adaugă interactivitate
+								și funcționalități dinamice paginilor web.
+							</li>
+							<li>
+								Framework-uri: Instrumente și biblioteci care simplifică
+								dezvoltarea, oferind structuri și funcții predefinite pentru a
+								accelera procesul.
+							</li>
+						</ul>
+					</div>
+				</section>
+			</div>
+		</main>
+
+		<footer>
+			<div class="container">
+				<p>It School Romania 2025. Toate drepturile rezervate</p>
+			</div>
+		</footer>
+	</body>
+</html>

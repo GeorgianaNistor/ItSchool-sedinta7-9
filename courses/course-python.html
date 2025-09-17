@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>First UI APP</title>
+		<!-- adauga, metatag-uri pentru SEO -->
+		<meta
+			name="description"
+			content="Prima aplicatie de UI folosind doar HTML si CSS"
+		/>
+		<!-- Includem font-urile de la Google -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- Includem iconitele tot de la Google: Material Icons -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+			rel="stylesheet"
+		/>
+		<!-- Includem css-urile noastre -->
+		<link rel="stylesheet" href="../../css/main.css" />
+		<link rel="stylesheet" href="../../css/course-detail.css" />
+	</head>
+	<body>
+		<header>
+			<nav>
+				<div class="container">
+					<a href="../../index.html" class="logo-link">
+						<img src="../../img/itschool-logo.png" alt="ItSchool" />
+					</a>
+					<div class="menu-icon-container">
+						<!-- Inseram iconita de meniu folosita la mobile + un checkbox folosit ca si hack de css sa aratam/ascundem meniul pe mobile -->
+						<span class="material-symbols-outlined menu-icon"> menu </span>
+						<input type="checkbox" />
+						<ul>
+							<li><a href="../courses.html">Cursuri Online</a></li>
+							<li class="about-us">
+								<a href="../about.html"
+									>Despre Noi
+									<!-- Inseram iconita de arrow down de pe Material Icons -->
+									<span class="material-symbols-outlined arrow-down-icon">
+										arrow_drop_down
+									</span>
+								</a>
+								<!-- Inseram sub-meniul afisat la hover 'Despre Noi' -->
+								<div class="submenu">
+									<a href="../../index.html">HomePage</a>
+									<a href="../about.html">Despre Noi</a>
+								</div>
+							</li>
+							<li><a href="../contact.html">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+
+		<main>
+			<section class="welcome">
+				<div class="container">
+					<h1>Programare Phyton</h1>
+				</div>
+			</section>
+
+			<div class="container">
+				<section class="course-details">
+					<div class="course-img">
+						<img src="../../img/python.jpeg" alt="Python" />
+					</div>
+					<div class="course-content">
+						<p>
+							Programarea în Python se referă la scrierea de cod utilizând
+							limbajul Python, un limbaj de programare de nivel înalt,
+							interpretat, cu o sintaxă simplă, intuitivă și orientată pe
+							obiecte, perfect pentru începători și profesioniști. Este
+							versatil, folosit pentru dezvoltare web, inteligență artificială,
+							analiză de date, robotică și multe altele, datorită flexibilității
+							și unei biblioteci standard bogate. Datorită naturii sale
+							open-source și suportului puternic al comunității, Python este un
+							limbaj aflat în continuă dezvoltare și foarte popular la nivel
+							global.
+						</p>
+						<p>Caracteristici cheie:</p>
+						<ul>
+							<li>
+								Simplitate și lizibilitate: Python are o sintaxă curată,
+								asemănătoare limbajului uman, ceea ce îl face ușor de învățat și
+								de citit.
+							</li>
+							<li>
+								Interpretat: Codul Python este executat direct de un
+								interpretor, linie cu linie, eliminând necesitatea unui pas de
+								compilare prealabil.
+							</li>
+							<li>
+								Multi-paradigmă: Suportă diferite stiluri de programare,
+								inclusiv programarea orientată pe obiecte, funcțională și
+								procedurală.
+							</li>
+							<li>
+								Open-source: Fiind un proiect open-source, comunitatea de
+								dezvoltatori contribuie continuu la dezvoltarea și îmbunătățirea
+								limbajului.
+							</li>
+							<li>
+								Portabilitate: Codul Python poate fi rulat pe diverse sisteme de
+								operare (Windows, Linux, macOS) fără modificări.
+							</li>
+							<li>
+								Bibliotecă standard bogată: Include o multitudine de module
+								predefinite pentru diverse sarcini, cum ar fi lucrul cu sistemul
+								de operare, operații matematice sau generarea de numere
+								aleatoare.
+							</li>
+						</ul>
+					</div>
+				</section>
+			</div>
+		</main>
+
+		<footer>
+			<div class="container">
+				<p>It School Romania 2025. Toate drepturile rezervate</p>
+			</div>
+		</footer>
+	</body>
+</html>
